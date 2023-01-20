@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        fileshare:
+          account-name: ${AZURE_STORAGE_ACCOUNT}
+          account-key: ${STORAGE_ACCOUNT_KEY}
+          share-name: ${STORAGE_SHARE_NAME}
+

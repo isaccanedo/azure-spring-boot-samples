@@ -1,0 +1,5 @@
+spring:
+  jms:
+    servicebus:
+      connection-string: ${SERVICEBUS_NAMESPACE_CONNECTION_STRING}
+      pricing-tier: ${PRICING_TIER}
